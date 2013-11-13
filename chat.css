@@ -1,0 +1,48 @@
+#header {
+    text-align:center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#container {
+    width: 600px;
+    margin: 10px auto 0 auto;
+}
+
+#history {
+    border: 2px #eee inset;
+    height: 300px;
+    padding: 5px;
+    overflow: auto;
+}
+
+#textbox {
+    margin-top: 10px;
+}
+
+#textbox input[type=text] {
+    width: 480px;
+}
+
+#textbox input[type=button] {
+    width: 100px;
+}
+
+.message {
+    margin: 2px;
+    font-size: 0.8em;
+    font-family: Verdana;
+}
+
+.message .date {
+    color: blue;
+    margin-right: 5px;
+}
+
+#button{
+float:left;
+}
+
+#ajaxMessage{
+    color: blue;
+}
